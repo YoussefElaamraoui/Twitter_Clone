@@ -1,13 +1,46 @@
-# TwitterClone
+# Twitter Clone
 
-This repository is for a University assignment, whose goal is to create a Twitter clone.
+A simple Twitter-like web app built with the MEVN stack (MongoDB, Express, Vue.js, Node.js).
+Originally created for a university project, now serves as a reference for full-stack architecture and component integration.
 
-I opted for a MEVN (MongoDB-Express-Vuejs-Nodejs)  stack app.
-My reasons: 
+## Structure
+Features
+	•	Create, view, and delete posts
+	•	Comment on posts and create threads
+	•	Basic user authentication (optional, depending on branch)
+	•	RESTful API built with Express and MongoDB
+	•	Vue.js frontend with component-based architecture
 
-1) having a better understanding of MEVN
-2) simplicity
+Tech Stack
+	•	Frontend: Vue.js
+	•	Backend: Node.js + Express
+	•	Database: MongoDB
 
-Even though the feature of the app are Twitter-like (threads, posts and comments), I did not replicate the same design, so feel free to download it and give me some feedback.
+## Setup
 
-I hope it will inspire you to create a similar project, have fun!
+1.	Clone the repository
+
+```
+git clone https://github.com/yourusername/TwitterClone.git
+cd TwitterClone
+```
+
+
+2.	Install dependencies for both frontend and backend
+
+
+```
+npm install
+```
+
+3.	Start backend and frontend servers
+
+```
+npm run dev
+```
+
+
+### Notes
+
+This project focuses on understanding how the frontend and backend interact in a full-stack environment using the MEVN stack.
+It’s not production-ready, but it’s a solid base for learning or for building more advanced social apps.
